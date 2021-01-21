@@ -1,12 +1,16 @@
-body{
+#board{
     padding: 3em;
     text-align: center;
 }
 
 .row > div{
+    cursor: pointer;
     float: left;
     height: 100px;
     width: 100px;
+    line-height: 100 px;
+    font-size: 75px;
+    color: rgb(38, 0, 255);
 }
 
 .row{
@@ -16,21 +20,21 @@ body{
 }
 
 .top{
-    border-bottom: 1px black solid;
+    border-bottom: 5px black solid;
+    border-top: 5px black solid;
 }
 
 .bottom{
-    border-top: 1px black solid;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
 }
 
 .left{
-    border-right: 1px black solid;
+    border-right: 5px black solid;
+    border-left: 5px black solid;
 }
 
 .right{
-    border-left: 1px black solid;
-}
-
-.row {
-    cursor: pointer;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
 }
